@@ -1,6 +1,6 @@
 # Hi there I'm Murali Krishna!
 
-Driven to design AI systems that learn, adapt, and make everyday tasks smarter.
+I’m committed to creating AI systems that learn, adapt, and make everyday tasks smarter.
 
 ## What I'm passionate about:
 * **Machine Learning & Artificial Intelligence:** Developing and deploying robust AI solutions.
