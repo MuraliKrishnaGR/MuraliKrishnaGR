@@ -1,18 +1,18 @@
-# Hi there 👋 I'm Murali Krishna!
+# Hi there I'm Murali Krishna!
 
-I'm an aspiring AI/ML Developer with a strong passion for building intelligent systems and solving real-world problems through data.
+Driven to design AI systems that learn, adapt, and make everyday tasks smarter.
 
-## 🚀 What I'm passionate about:
+## What I'm passionate about:
 * **Machine Learning & Artificial Intelligence:** Developing and deploying robust AI solutions.
 * **Natural Language Processing (NLP) & Large Language Models (LLMs):** Diving deep into understanding and generating human language.
 * **Generative AI:** Exploring the cutting-edge of AI to create innovative applications.
 * **End-to-End AI System Development:** From data processing and model training to deployment and monitoring.
 
-## 🌱 I'm currently exploring:
+## I'm currently exploring:
 * The latest advancements in RAG (Retrieval Augmented Generation) architectures.
 * Scalable deployment strategies for LLMs.
 
-## 💡 What I bring:
+## What I bring:
 * Analytical thinking and strong problem-solving skills.
 * A collaborative spirit and a drive for continuous learning.
 
