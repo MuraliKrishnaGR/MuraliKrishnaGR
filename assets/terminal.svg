@@ -12,12 +12,12 @@
   <g opacity="0"><set attributeName="opacity" to="1" begin="0.3s" fill="freeze"/>
     <text x="28" y="76" class="t"><tspan class="p">murali@ai-lab</tspan>:<tspan class="m">~</tspan>$ whoami</text></g>
   <g opacity="0"><set attributeName="opacity" to="1" begin="1.0s" fill="freeze"/>
-    <text x="28" y="102" class="t">Murali Krishna — builds AI systems that learn, adapt &amp; make tasks smarter</text></g>
+    <text x="28" y="102" class="t">Murali Krishna — AI explorer · LLM tinkerer · end-to-end builder</text></g>
 
   <g opacity="0"><set attributeName="opacity" to="1" begin="1.8s" fill="freeze"/>
     <text x="28" y="140" class="t"><tspan class="p">murali@ai-lab</tspan>:<tspan class="m">~</tspan>$ cat focus.txt</text></g>
   <g opacity="0"><set attributeName="opacity" to="1" begin="2.4s" fill="freeze"/>
-    <text x="28" y="166" class="t"><tspan class="c">▸</tspan> Machine Learning   <tspan class="c">▸</tspan> NLP &amp; LLMs   <tspan class="c">▸</tspan> Generative AI   <tspan class="c">▸</tspan> RAG</text></g>
+    <text x="28" y="166" class="t"><tspan class="c">▸</tspan> Machine Learning  <tspan class="c">▸</tspan> NLP &amp; LLMs  <tspan class="c">▸</tspan> Computer Vision  <tspan class="c">▸</tspan> Generative AI  <tspan class="c">▸</tspan> RAG</text></g>
 
   <g opacity="0"><set attributeName="opacity" to="1" begin="3.2s" fill="freeze"/>
     <text x="28" y="204" class="t"><tspan class="p">murali@ai-lab</tspan>:<tspan class="m">~</tspan>$ python train.py --model my_skills</text></g>
@@ -29,10 +29,15 @@
   <g opacity="0"><set attributeName="opacity" to="1" begin="5.2s" fill="freeze"/>
     <text x="28" y="294" class="t">🦾 <tspan class="m">status:</tspan> currently exploring</text></g>
   <g opacity="0"><set attributeName="opacity" to="1" begin="5.6s" fill="freeze"/>
-    <text x="28" y="320" class="t d">[<tspan class="g">██</tspan>░░░░░░░░░░░░░░░░] exploring perception · planning · control</text>
-    <rect x="66" y="306" width="0" height="18" fill="#7ee787" opacity="0.25">
-      <animate attributeName="width" values="0;180;0" dur="4s" begin="5.6s" repeatCount="indefinite"/>
-    </rect></g>
+    <defs><clipPath id="barclip"><rect x="30" y="308" width="196" height="14" rx="3"/></clipPath>
+      <linearGradient id="barfill" x1="0" x2="1"><stop offset="0" stop-color="#58e1ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+    <rect x="28" y="306" width="200" height="18" rx="4" fill="#161b22" stroke="#30363d"/>
+    <g clip-path="url(#barclip)">
+      <rect x="30" y="308" width="0" height="14" fill="url(#barfill)">
+        <animate attributeName="width" values="0;196;196;0" keyTimes="0;0.7;0.85;1" dur="4s" begin="5.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="242" y="320" class="t d">exploring perception · planning · control</text></g>
 
   <g opacity="0"><set attributeName="opacity" to="1" begin="6.4s" fill="freeze"/>
     <text x="28" y="358" class="t"><tspan class="p">murali@ai-lab</tspan>:<tspan class="m">~</tspan>$ <tspan class="p">▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text></g>

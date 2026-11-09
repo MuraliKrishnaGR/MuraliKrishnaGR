@@ -1,66 +1,64 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Murali Krishna — AI / ML · NLP & LLMs · Generative AI · Robotics" width="100%"/>
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Machine+Learning+%26+Artificial+Intelligence;NLP+%26+Large+Language+Models;RAG+Architectures+%26+Vector+Search;Currently+exploring+Robotics+%F0%9F%A6%BE;End-to-End+AI+Systems+%E2%86%92+Deployed" alt="Typing SVG"/>
-  </a>
+  <img src="./assets/banner.svg" alt="Murali Krishna: Machine Learning, NLP & LLMs, Computer Vision, Generative AI. AI explorer, LLM tinkerer, end-to-end builder." width="100%"/>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MuraliKrishnaGR&label=Profile%20views&color=a78bfa&style=flat-square" alt="profile views"/>
-  <a href="https://github.com/MuraliKrishnaGR?tab=followers"><img src="https://img.shields.io/github/followers/MuraliKrishnaGR?label=Followers&style=flat-square&color=58e1ff" alt="followers"/></a>
   <a href="#-drive-my-robot"><img src="https://img.shields.io/badge/%F0%9F%A4%96%20Play-Drive%20my%20robot-f472b6?style=flat-square" alt="play"/></a>
 </p>
 
 <p align="center">
-  <img src="./assets/terminal.svg" alt="whoami: Murali Krishna, AI / ML, NLP & LLMs, Generative AI, RAG, currently exploring robotics" width="88%"/>
+  <img src="./assets/terminal.svg" alt="whoami: Murali Krishna, AI explorer, LLM tinkerer, end-to-end builder. Skills: Machine Learning, NLP & LLMs, Computer Vision, Generative AI, RAG. Currently exploring robotics." width="88%"/>
 </p>
 
-## 🧠 What I'm Passionate About
+## 🧠 What I Work With
 
-| | Area | What that looks like |
+| | Area | What I do |
 |---|---|---|
-| 🤖 | **Machine Learning & AI** | Developing and deploying robust AI solutions |
-| 💬 | **NLP & LLMs** | Understanding and generating human language |
-| ✨ | **Generative AI** | Building innovative apps on the cutting edge |
-| 🔁 | **End-to-End AI Systems** | Data processing, training, deployment & monitoring |
+| 🤖 | **Machine Learning** | Building and evaluating predictive models |
+| 🧠 | **Deep Learning** | Neural networks and fine-tuning transformers |
+| 💬 | **NLP & LLMs** | Language understanding and LLM-powered apps |
+| ✨ | **Generative AI** | Apps that generate text, responses and insights |
+| 📚 | **RAG** | Grounded AI systems that cite and check their answers |
+| 👁️ | **Computer Vision** | Models that see and reason over images & video |
+| 🚀 | **Deployment** | Turning models into apps people can use |
+| 📊 | **Data & Analytics** | From raw data to insights and dashboards |
 
 ## 🔭 Currently Exploring
 
-- 📚 The latest advancements in **RAG (Retrieval-Augmented Generation)** architectures
-- ⚡ **Scalable deployment strategies** for LLMs
-- 🦾 **Robotics**: how robots perceive, plan and act, and where LLMs fit in
+- 🦾 **Robotics**: how robots perceive, plan and act, and where AI fits in
+- 🧩 **AI Agents**: systems that plan, use tools and check their own work
+- ⚡ **Scaling LLMs**: deploying LLMs efficiently at scale
 
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,anaconda&theme=dark" alt="ML stack"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,linux,vscode&theme=dark" alt="Tools"/>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,postgres,git,github&theme=dark" alt="Tech stack"/>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 </p>
 
-## 🚀 What I Build
+## 📈 GitHub Activity
 
-> 📌 Check out my **pinned repositories** below for the highlights!
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" width="100%"/>
+</p>
 
-- 📊 **Intelligent Data Analysis**: extracting insights and making predictions from complex datasets
-- 🗣️ **Language-Based AI Applications**: NLP and LLM implementations for real tasks
-- 🌐 **Deployed AI Solutions**: full-stack AI apps, often shipped with **Streamlit**
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MuraliKrishnaGR&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuraliKrishnaGR&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+</p>
 
 ## 🤖 Drive My Robot
 
-**Anyone can play!** Click a button, then click **Create** on the issue that opens. A GitHub Action moves the robot 🤖 and updates this page in about a minute.
+Since I'm exploring robotics, here's a tiny robot that lives on my profile. **Anyone can drive it!** Click a button, then click **Create** on the issue that opens. A GitHub Action moves the robot 🤖 and updates this page in about a minute.
 Steer around the rocks 🪨 and reach the battery 🔋 to charge it ⚡
 
 <!--ROBOT_START-->
@@ -87,28 +85,12 @@ Steer around the rocks 🪨 and reach the battery 🔋 to charge it ⚡
 | — | waiting for the first driver… | — |
 <!--ROBOT_END-->
 
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" width="100%"/>
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MuraliKrishnaGR&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuraliKrishnaGR&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=MuraliKrishnaGR&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-</p>
-
 ## 🤝 Let's Connect
 
-I'm always happy to talk about AI, LLMs, robotics, and interesting problems. Feel free to reach out!
+I'm always happy to talk about machine learning, LLMs, computer vision, robotics and interesting problems. Feel free to reach out!
 
 <p align="center">
   <a href="https://www.linkedin.com/in/murali-krishna-g-055a79235"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/MuraliKrishnaGR"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 <p align="center">

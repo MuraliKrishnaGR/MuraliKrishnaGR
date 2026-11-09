@@ -51,6 +51,6 @@
   </circle>
 
   <text x="70" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="800" fill="url(#txt)">Murali Krishna</text>
-  <text x="72" y="178" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#c9d1d9">AI / ML  ·  NLP &amp; LLMs  ·  Generative AI  ·  Robotics</text>
-  <text x="72" y="222" font-family="Consolas, Menlo, monospace" font-size="18" fill="#8b949e">&gt; building AI that learns &amp; adapts · currently exploring robotics<tspan fill="#58e1ff">▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+  <text x="72" y="178" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#c9d1d9">Machine Learning  ·  NLP &amp; LLMs  ·  Computer Vision  ·  Generative AI</text>
+  <text x="72" y="222" font-family="Consolas, Menlo, monospace" font-size="18" fill="#8b949e">&gt; AI explorer · LLM tinkerer · end-to-end builder<tspan fill="#58e1ff">▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
 </svg>
