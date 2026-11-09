@@ -21,7 +21,7 @@
   </g>
   <g class="fade" style="animation-delay:0.45s">
     <text x="30" y="122" font-size="20">⚡</text>
-    <text x="66" y="122" class="t n" fill="url(#g)">249</text>
+    <text x="66" y="122" class="t n" fill="url(#g)">251</text>
     <text x="140" y="122" class="t l">Contributions (last year)</text>
   </g>
   <g class="fade" style="animation-delay:0.7s">
@@ -32,29 +32,9 @@
   <text x="470" y="56" class="t l">Most used languages</text>
   <g clip-path="url(#bar)"><rect x="470" y="70" width="400" height="12" fill="#161b22"/>
     <rect x="470.0" y="70" width="399.1" height="12" fill="#58e1ff"/>
-    <rect x="869.1" y="70" width="0.4" height="12" fill="#f1e05a"/>
-    <rect x="869.5" y="70" width="0.2" height="12" fill="#663399"/>
-    <rect x="869.7" y="70" width="0.1" height="12" fill="#A97BFF"/>
-    <rect x="869.8" y="70" width="0.1" height="12" fill="#a270ba"/>
   </g>
   <g class="fade" style="animation-delay:0.9s">
     <circle cx="476" cy="107" r="6" fill="#58e1ff"/>
     <text x="490" y="112" class="t" font-size="15">Python <tspan fill="#8b949e">99.8%</tspan></text>
-  </g>
-  <g class="fade" style="animation-delay:1.05s">
-    <circle cx="676" cy="107" r="6" fill="#f1e05a"/>
-    <text x="690" y="112" class="t" font-size="15">JavaScript <tspan fill="#8b949e">0.1%</tspan></text>
-  </g>
-  <g class="fade" style="animation-delay:1.2s">
-    <circle cx="476" cy="133" r="6" fill="#663399"/>
-    <text x="490" y="138" class="t" font-size="15">CSS <tspan fill="#8b949e">0.1%</tspan></text>
-  </g>
-  <g class="fade" style="animation-delay:1.35s">
-    <circle cx="676" cy="133" r="6" fill="#A97BFF"/>
-    <text x="690" y="138" class="t" font-size="15">Kotlin <tspan fill="#8b949e">0.0%</tspan></text>
-  </g>
-  <g class="fade" style="animation-delay:1.5s">
-    <circle cx="476" cy="159" r="6" fill="#a270ba"/>
-    <text x="490" y="164" class="t" font-size="15">Julia <tspan fill="#8b949e">0.0%</tspan></text>
   </g>
 </svg>
