@@ -20,12 +20,12 @@
   </g>
   <g class="fade" style="animation-delay:0.45s">
     <text x="30" y="122" font-size="20">⚡</text>
-    <text x="66" y="122" class="t n" fill="url(#g)">253</text>
+    <text x="66" y="122" class="t n" fill="url(#g)">254</text>
     <text x="140" y="122" class="t l">Contributions (last year)</text>
   </g>
   <g class="fade" style="animation-delay:0.7s">
     <text x="30" y="162" font-size="20">🧩</text>
-    <text x="66" y="162" class="t n" fill="url(#g)">7</text>
+    <text x="66" y="162" class="t n" fill="url(#g)">6</text>
     <text x="140" y="162" class="t l">Languages used</text>
   </g>
   <text x="470" y="56" class="t l">Languages I code in</text>
@@ -49,14 +49,14 @@
   </g>
   <g class="fade" style="animation-delay:0.96s">
     <rect x="675" y="102" width="195" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
-    <circle cx="689" cy="114" r="5" fill="#384d54"/>
-    <text x="701" y="119" class="t" font-size="14">Dockerfile</text>
+    <circle cx="689" cy="114" r="5" fill="#f1e05a"/>
+    <text x="701" y="119" class="t" font-size="14">JavaScript</text>
     <text x="860" y="119" class="t" font-size="13" fill="#8b949e" text-anchor="end">1 repo</text>
   </g>
   <g class="fade" style="animation-delay:1.08s">
     <rect x="470" y="132" width="195" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
-    <circle cx="484" cy="144" r="5" fill="#f1e05a"/>
-    <text x="496" y="149" class="t" font-size="14">JavaScript</text>
+    <circle cx="484" cy="144" r="5" fill="#663399"/>
+    <text x="496" y="149" class="t" font-size="14">CSS</text>
     <text x="655" y="149" class="t" font-size="13" fill="#8b949e" text-anchor="end">1 repo</text>
   </g>
   <g class="fade" style="animation-delay:1.2s">
@@ -64,11 +64,5 @@
     <circle cx="689" cy="144" r="5" fill="#e34c26"/>
     <text x="701" y="149" class="t" font-size="14">HTML</text>
     <text x="860" y="149" class="t" font-size="13" fill="#8b949e" text-anchor="end">1 repo</text>
-  </g>
-  <g class="fade" style="animation-delay:1.3199999999999998s">
-    <rect x="470" y="162" width="195" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
-    <circle cx="484" cy="174" r="5" fill="#663399"/>
-    <text x="496" y="179" class="t" font-size="14">CSS</text>
-    <text x="655" y="179" class="t" font-size="13" fill="#8b949e" text-anchor="end">1 repo</text>
   </g>
 </svg>
