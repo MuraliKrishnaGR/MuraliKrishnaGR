@@ -63,7 +63,7 @@ Steer around the rocks 🪨 and reach the battery 🔋 to charge it ⚡
 
 <!--ROBOT_START-->
 <p align="center">
-⬛⬛⬛⬛⬛⬛⬛⬛⬛<br/>⬛⬛🪨⬛⬛⬛⬛🪨⬛<br/>🤖⬛⬛⬛⬛⬛⬛⬛⬛<br/>⬛⬛⬛⬛🪨⬛🪨⬛⬛<br/>⬛⬛⬛⬛🔋⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛⬛⬛<br/>⬛⬛🪨⬛⬛⬛⬛🪨⬛<br/>⬛🤖⬛⬛⬛⬛⬛⬛⬛<br/>⬛⬛⬛⬛🪨⬛🪨⬛⬛<br/>⬛⬛⬛⬛🔋⬛⬛⬛⬛
 </p>
 
 <p align="center">
@@ -77,11 +77,12 @@ Steer around the rocks 🪨 and reach the battery 🔋 to charge it ⚡
 </p>
 
 <p align="center">
-⚡ <b>Batteries charged:</b> 0 &nbsp;·&nbsp; 🕹️ <b>Total moves:</b> 2 &nbsp;·&nbsp; 👥 <b>Drivers:</b> 1
+⚡ <b>Batteries charged:</b> 0 &nbsp;·&nbsp; 🕹️ <b>Total moves:</b> 3 &nbsp;·&nbsp; 👥 <b>Drivers:</b> 1
 </p>
 
 | Driver | Action | Date |
 |---|---|---|
+| [@MuraliKrishnaGR](https://github.com/MuraliKrishnaGR) | moved right | 2026-11-09 |
 | [@MuraliKrishnaGR](https://github.com/MuraliKrishnaGR) | moved down | 2026-11-09 |
 | [@MuraliKrishnaGR](https://github.com/MuraliKrishnaGR) | moved up | 2026-11-09 |
 <!--ROBOT_END-->
