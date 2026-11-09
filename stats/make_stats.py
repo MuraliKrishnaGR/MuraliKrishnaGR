@@ -69,7 +69,7 @@ def demo():
 def render(d):
     W, H = 900, 200
     total = sum(d["langs"].values()) or 1
-    top = d["langs"].most_common(5)
+    top = [(n, v) for n, v in d["langs"].most_common(5) if v / total >= 0.01]
     stats = [("📦", "Public repos", d["repos"]),
              ("⚡", "Contributions (last year)", d["contributions"]),
              ("🧩", "Languages used", len(d["langs"]))]
