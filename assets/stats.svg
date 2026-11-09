@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <text x="30" y="38" font-family="Consolas, Menlo, monospace" font-size="15" fill="#c9d1d9"><tspan fill="#58e1ff">murali@ai-lab</tspan>:<tspan fill="#a78bfa">~</tspan>$ ./stats --github</text>
+  <text x="30" y="80" font-family="Consolas, Menlo, monospace" font-size="15" fill="#8b949e">updating… (refreshes automatically)</text>
+</svg>
