@@ -48,10 +48,12 @@ def fetch(login):
     u = data["data"]["user"]
     langs, colors = Counter(), {}
     for repo in u["repositories"]["nodes"]:
+        names = set()
         for e in repo["languages"]["edges"]:
             name = MERGE.get(e["node"]["name"], e["node"]["name"])
-            langs[name] += e["size"]
+            names.add(name)
             colors.setdefault(name, e["node"]["color"] or "#8b949e")
+        langs.update(names)          # one count per repo that uses the language
     return {
         "repos": u["repositories"]["totalCount"],
         "stars": sum(r["stargazerCount"] for r in u["repositories"]["nodes"]),
@@ -62,14 +64,13 @@ def fetch(login):
 
 def demo():
     return {"repos": 30, "stars": 4, "contributions": 148,
-            "langs": Counter({"Python": 900, "Julia": 40, "HTML": 30, "Java": 25}),
-            "colors": {"Julia": "#a270ba", "HTML": "#e34c26", "Java": "#b07219"}}
+            "langs": Counter({"Python": 14, "Java": 9, "Kotlin": 4, "JavaScript": 2, "CSS": 2, "HTML": 2, "Julia": 1}),
+            "colors": {"Julia": "#a270ba", "HTML": "#e34c26", "Java": "#b07219", "Kotlin": "#A97BFF",
+                       "JavaScript": "#f1e05a", "CSS": "#563d7c"}}
 
 
 def render(d):
     W, H = 900, 200
-    total = sum(d["langs"].values()) or 1
-    top = [(n, v) for n, v in d["langs"].most_common(5) if v / total >= 0.01]
     stats = [("📦", "Public repos", d["repos"]),
              ("⚡", "Contributions (last year)", d["contributions"]),
              ("🧩", "Languages used", len(d["langs"]))]
@@ -85,7 +86,6 @@ def render(d):
   </style>
   <defs>
     <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#58e1ff"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
-    <clipPath id="bar"><rect x="470" y="70" width="400" height="12" rx="6"/></clipPath>
   </defs>
   <rect width="{W}" height="{H}" rx="14" fill="#0d1117" stroke="#30363d"/>
   <text x="30" y="38" class="t m" font-size="15"><tspan fill="#58e1ff">murali@ai-lab</tspan>:<tspan fill="#a78bfa">~</tspan>$ ./stats --github</text>
@@ -99,23 +99,18 @@ def render(d):
     <text x="140" y="{y}" class="t l">{escape(label)}</text>
   </g>''')
 
-    parts.append('  <text x="470" y="56" class="t l">Most used languages</text>')
-    parts.append('  <g clip-path="url(#bar)"><rect x="470" y="70" width="400" height="12" fill="#161b22"/>')
-    x = 470.0
-    for name, size in top:
-        w = 400 * size / total
-        col = COLORS.get(name, d["colors"].get(name, "#8b949e"))
-        parts.append(f'    <rect x="{x:.1f}" y="70" width="{w:.1f}" height="12" fill="{col}"/>')
-        x += w
-    parts.append('  </g>')
-
-    for i, (name, size) in enumerate(top):
+    parts.append('  <text x="470" y="56" class="t l">Languages I code in</text>')
+    langs = d["langs"].most_common(8)
+    for i, (name, count) in enumerate(langs):
         col, row = i % 2, i // 2
-        lx, ly = 470 + col * 200, 112 + row * 26
+        lx, ly = 470 + col * 205, 72 + row * 30
         c = COLORS.get(name, d["colors"].get(name, "#8b949e"))
-        parts.append(f'''  <g class="fade" style="animation-delay:{0.9 + i * 0.15}s">
-    <circle cx="{lx + 6}" cy="{ly - 5}" r="6" fill="{c}"/>
-    <text x="{lx + 20}" y="{ly}" class="t" font-size="15">{escape(name)} <tspan fill="#8b949e">{100 * size / total:.1f}%</tspan></text>
+        unit = "repo" if count == 1 else "repos"
+        parts.append(f'''  <g class="fade" style="animation-delay:{0.6 + i * 0.12}s">
+    <rect x="{lx}" y="{ly}" width="195" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
+    <circle cx="{lx + 14}" cy="{ly + 12}" r="5" fill="{c}"/>
+    <text x="{lx + 26}" y="{ly + 17}" class="t" font-size="14">{escape(name)}</text>
+    <text x="{lx + 185}" y="{ly + 17}" class="t" font-size="13" fill="#8b949e" text-anchor="end">{count} {unit}</text>
   </g>''')
 
     parts.append("</svg>\n")
