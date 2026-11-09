@@ -1,14 +1,13 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Murali Krishna: Machine Learning, NLP & LLMs, Computer Vision, Generative AI. AI explorer, LLM tinkerer, end-to-end builder." width="100%"/>
+  <img src="./assets/banner.svg" alt="Murali Krishna G: Machine Learning, NLP & LLMs, Computer Vision, Generative AI. AI explorer, LLM tinkerer, end-to-end builder." width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MuraliKrishnaGR&label=Profile%20views&color=a78bfa&style=flat-square" alt="Profile views"/>
   <a href="#-drive-my-robot"><img src="https://img.shields.io/badge/%F0%9F%A4%96%20Play-Drive%20my%20robot-f472b6?style=flat-square" alt="Play: drive my robot"/></a>
 </p>
 
 <p align="center">
-  <img src="./assets/terminal.svg" alt="whoami: Murali Krishna, AI explorer, LLM tinkerer, end-to-end builder. Skills: Machine Learning, NLP & LLMs, Computer Vision, Generative AI, RAG. Currently exploring robotics." width="88%"/>
+  <img src="./assets/terminal.svg" alt="whoami: Murali Krishna G, AI explorer, LLM tinkerer, end-to-end builder. Skills: Machine Learning, NLP & LLMs, Computer Vision, Generative AI, RAG. Currently exploring robotics." width="88%"/>
 </p>
 
 ## 🧠 What I Work With
@@ -51,10 +50,6 @@
   <img src="./assets/stats.svg" alt="GitHub stats: public repos, contributions in the last year, and most used languages" width="100%"/>
 </p>
 
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" width="100%"/>
-</p>
-
 ## 🤖 Drive My Robot
 
 Since I'm exploring robotics, here's a tiny robot that lives on my profile. **Anyone can drive it!** Click a button, then click **Create** on the issue that opens. A GitHub Action moves the robot 🤖 and updates this page in about a minute.
@@ -62,7 +57,7 @@ Steer around the rocks 🪨 and reach the battery 🔋 to charge it ⚡
 
 <!--ROBOT_START-->
 <p align="center">
-⬛⬛⬛⬛⬛⬛⬛⬛⬛<br/>⬛🤖🪨⬛⬛⬛⬛🪨⬛<br/>⬛⬛⬛⬛⬛⬛⬛⬛⬛<br/>⬛⬛⬛⬛🪨⬛🪨⬛⬛<br/>⬛⬛⬛⬛🔋⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛⬛⬛<br/>⬛⬛🪨⬛⬛⬛⬛🪨⬛<br/>🤖⬛⬛⬛⬛⬛⬛⬛⬛<br/>⬛⬛⬛⬛🪨⬛🪨⬛⬛<br/>⬛⬛⬛⬛🔋⬛⬛⬛⬛
 </p>
 
 <p align="center">
@@ -76,15 +71,12 @@ Steer around the rocks 🪨 and reach the battery 🔋 to charge it ⚡
 </p>
 
 <p align="center">
-⚡ <b>Batteries charged:</b> 0 &nbsp;·&nbsp; 🕹️ <b>Total moves:</b> 4 &nbsp;·&nbsp; 👥 <b>Drivers:</b> 1
+⚡ <b>Batteries charged:</b> 0 &nbsp;·&nbsp; 🕹️ <b>Total moves:</b> 0 &nbsp;·&nbsp; 👥 <b>Drivers:</b> 0
 </p>
 
 | Driver | Action | Date |
 |---|---|---|
-| [@MuraliKrishnaGR](https://github.com/MuraliKrishnaGR) | moved up | 2026-11-09 |
-| [@MuraliKrishnaGR](https://github.com/MuraliKrishnaGR) | moved right | 2026-11-09 |
-| [@MuraliKrishnaGR](https://github.com/MuraliKrishnaGR) | moved down | 2026-11-09 |
-| [@MuraliKrishnaGR](https://github.com/MuraliKrishnaGR) | moved up | 2026-11-09 |
+| — | waiting for the first driver… | — |
 <!--ROBOT_END-->
 
 ## 🤝 Let's Connect

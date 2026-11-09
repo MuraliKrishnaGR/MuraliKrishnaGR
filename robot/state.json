@@ -1,37 +1,14 @@
 {
   "robot": [
-    1,
-    1
+    0,
+    2
   ],
   "battery": [
     4,
     4
   ],
   "charged": 0,
-  "moves": 4,
-  "players": [
-    "MuraliKrishnaGR"
-  ],
-  "log": [
-    {
-      "user": "MuraliKrishnaGR",
-      "event": "moved up",
-      "date": "2026-11-09"
-    },
-    {
-      "user": "MuraliKrishnaGR",
-      "event": "moved right",
-      "date": "2026-11-09"
-    },
-    {
-      "user": "MuraliKrishnaGR",
-      "event": "moved down",
-      "date": "2026-11-09"
-    },
-    {
-      "user": "MuraliKrishnaGR",
-      "event": "moved up",
-      "date": "2026-11-09"
-    }
-  ]
+  "moves": 0,
+  "players": [],
+  "log": []
 }

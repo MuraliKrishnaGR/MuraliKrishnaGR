@@ -32,6 +32,8 @@ query($login: String!) {
 
 # Notebooks are Python work; count them as Python so the bar reflects the language used.
 MERGE = {"Jupyter Notebook": "Python"}
+# Config/build files GitHub counts as "languages" but nobody codes in.
+SKIP = {"Dockerfile", "Makefile", "Procfile", "Batchfile"}
 COLORS = {"Python": "#58e1ff"}
 
 
@@ -51,6 +53,8 @@ def fetch(login):
         names = set()
         for e in repo["languages"]["edges"]:
             name = MERGE.get(e["node"]["name"], e["node"]["name"])
+            if name in SKIP:
+                continue
             names.add(name)
             colors.setdefault(name, e["node"]["color"] or "#8b949e")
         langs.update(names)          # one count per repo that uses the language

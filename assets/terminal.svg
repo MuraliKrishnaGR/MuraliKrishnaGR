@@ -12,7 +12,7 @@
   <g opacity="0"><set attributeName="opacity" to="1" begin="0.3s" fill="freeze"/>
     <text x="28" y="76" class="t"><tspan class="p">murali@ai-lab</tspan>:<tspan class="m">~</tspan>$ whoami</text></g>
   <g opacity="0"><set attributeName="opacity" to="1" begin="1.0s" fill="freeze"/>
-    <text x="28" y="102" class="t">Murali Krishna — AI explorer · LLM tinkerer · end-to-end builder</text></g>
+    <text x="28" y="102" class="t">Murali Krishna G — AI explorer · LLM tinkerer · end-to-end builder</text></g>
 
   <g opacity="0"><set attributeName="opacity" to="1" begin="1.8s" fill="freeze"/>
     <text x="28" y="140" class="t"><tspan class="p">murali@ai-lab</tspan>:<tspan class="m">~</tspan>$ cat focus.txt</text></g>
