@@ -11,10 +11,6 @@
   <img src="./assets/terminal.svg" alt="whoami: Murali Krishna, AI explorer, LLM tinkerer, end-to-end builder. Skills: Machine Learning, NLP & LLMs, Computer Vision, Generative AI, RAG. Currently exploring robotics." width="88%"/>
 </p>
 
-<p align="center">
-  🏆 Built <a href="https://github.com/MuraliKrishnaGR/retrodict"><b>Retrodict</b></a> for the <b>Meta Global AI Developer Hackathon</b>: an AI agent that works out what happened before a photo was taken
-</p>
-
 ## 🧠 What I Work With
 
 | Area | What I do |
