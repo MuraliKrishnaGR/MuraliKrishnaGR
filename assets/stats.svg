@@ -1,5 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <style>
+    .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+    .m { font-family: Consolas, 'Fira Code', Menlo, monospace; }
+    .n { font-size: 26px; font-weight: 700; }
+    .l { font-size: 14px; fill: #8b949e; }
+    .fade { opacity: 0; animation: in .6s ease forwards; }
+    @keyframes in { to { opacity: 1; } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#58e1ff"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <clipPath id="bar"><rect x="470" y="70" width="400" height="12" rx="6"/></clipPath>
+  </defs>
   <rect width="900" height="200" rx="14" fill="#0d1117" stroke="#30363d"/>
-  <text x="30" y="38" font-family="Consolas, Menlo, monospace" font-size="15" fill="#c9d1d9"><tspan fill="#58e1ff">murali@ai-lab</tspan>:<tspan fill="#a78bfa">~</tspan>$ ./stats --github</text>
-  <text x="30" y="80" font-family="Consolas, Menlo, monospace" font-size="15" fill="#8b949e">updating… (refreshes automatically)</text>
+  <text x="30" y="38" class="t m" font-size="15"><tspan fill="#58e1ff">murali@ai-lab</tspan>:<tspan fill="#a78bfa">~</tspan>$ ./stats --github</text>
+  <line x1="450" y1="60" x2="450" y2="175" stroke="#30363d"/>
+  <g class="fade" style="animation-delay:0.2s">
+    <text x="30" y="82" font-size="20">📦</text>
+    <text x="66" y="82" class="t n" fill="url(#g)">30</text>
+    <text x="140" y="82" class="t l">Public repos</text>
+  </g>
+  <g class="fade" style="animation-delay:0.45s">
+    <text x="30" y="122" font-size="20">⚡</text>
+    <text x="66" y="122" class="t n" fill="url(#g)">248</text>
+    <text x="140" y="122" class="t l">Contributions (last year)</text>
+  </g>
+  <g class="fade" style="animation-delay:0.7s">
+    <text x="30" y="162" font-size="20">🧩</text>
+    <text x="66" y="162" class="t n" fill="url(#g)">7</text>
+    <text x="140" y="162" class="t l">Languages used</text>
+  </g>
+  <text x="470" y="56" class="t l">Most used languages</text>
+  <g clip-path="url(#bar)"><rect x="470" y="70" width="400" height="12" fill="#161b22"/>
+    <rect x="470.0" y="70" width="399.1" height="12" fill="#58e1ff"/>
+    <rect x="869.1" y="70" width="0.4" height="12" fill="#f1e05a"/>
+    <rect x="869.5" y="70" width="0.2" height="12" fill="#663399"/>
+    <rect x="869.7" y="70" width="0.1" height="12" fill="#A97BFF"/>
+    <rect x="869.8" y="70" width="0.1" height="12" fill="#a270ba"/>
+  </g>
+  <g class="fade" style="animation-delay:0.9s">
+    <circle cx="476" cy="107" r="6" fill="#58e1ff"/>
+    <text x="490" y="112" class="t" font-size="15">Python <tspan fill="#8b949e">99.8%</tspan></text>
+  </g>
+  <g class="fade" style="animation-delay:1.05s">
+    <circle cx="676" cy="107" r="6" fill="#f1e05a"/>
+    <text x="690" y="112" class="t" font-size="15">JavaScript <tspan fill="#8b949e">0.1%</tspan></text>
+  </g>
+  <g class="fade" style="animation-delay:1.2s">
+    <circle cx="476" cy="133" r="6" fill="#663399"/>
+    <text x="490" y="138" class="t" font-size="15">CSS <tspan fill="#8b949e">0.1%</tspan></text>
+  </g>
+  <g class="fade" style="animation-delay:1.35s">
+    <circle cx="676" cy="133" r="6" fill="#A97BFF"/>
+    <text x="690" y="138" class="t" font-size="15">Kotlin <tspan fill="#8b949e">0.0%</tspan></text>
+  </g>
+  <g class="fade" style="animation-delay:1.5s">
+    <circle cx="476" cy="159" r="6" fill="#a270ba"/>
+    <text x="490" y="164" class="t" font-size="15">Julia <tspan fill="#8b949e">0.0%</tspan></text>
+  </g>
 </svg>
