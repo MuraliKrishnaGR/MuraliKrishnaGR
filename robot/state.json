@@ -1,0 +1,14 @@
+{
+  "robot": [
+    0,
+    2
+  ],
+  "battery": [
+    4,
+    4
+  ],
+  "charged": 0,
+  "moves": 0,
+  "players": [],
+  "log": []
+}
